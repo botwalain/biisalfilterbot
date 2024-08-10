@@ -36,7 +36,7 @@ async def pm_search(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ 😊", url=link
+                        "Request Here", url=link
                     )
                 ]
             ]
@@ -159,14 +159,14 @@ async def next_page(bot, query):
                 for file in files
               ]
     btn.insert(0,[
-        InlineKeyboardButton("🎭 ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
+        InlineKeyboardButton("ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
         ])
     btn.insert(1, [
-        InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ 🤡", callback_data=f"qualities#{key}#{offset}#{req}"),
-        InlineKeyboardButton("🚩 ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
+        InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
+        InlineKeyboardButton("ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
     ])
     btn.insert(2, [
-        InlineKeyboardButton("✨ ᴄʜᴏᴏsᴇ season🍿", callback_data=f"seasons#{key}#{offset}#{req}")
+        InlineKeyboardButton("ᴄʜᴏᴏsᴇ season🍿", callback_data=f"seasons#{key}#{offset}#{req}")
     ])
     btn.insert(3,[
         InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
@@ -291,11 +291,11 @@ async def season_search(client: Client, query: CallbackQuery):
               ]
    
     btn.insert(0,[
-        InlineKeyboardButton("🎭 ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
+        InlineKeyboardButton("ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
         ])
     btn.insert(1, [
-        InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ 🤡", callback_data=f"qualities#{key}#{offset}#{req}"),
-        InlineKeyboardButton("🚩 ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
+        InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
+        InlineKeyboardButton("ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
     ])
     btn.insert(2,[
         InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
@@ -394,11 +394,11 @@ async def year_search(client: Client, query: CallbackQuery):
         
    
     btn.insert(0,[
-        InlineKeyboardButton("✨ ᴄʜᴏᴏsᴇ season🍿", callback_data=f"seasons#{key}#{offset}#{req}")
+        InlineKeyboardButton("ᴄʜᴏᴏsᴇ season🍿", callback_data=f"seasons#{key}#{offset}#{req}")
         ])
     btn.insert(1, [
-        InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ 🤡", callback_data=f"qualities#{key}#{offset}#{req}"),
-        InlineKeyboardButton("🎭 ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
+        InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
+        InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
     ])
     btn.insert(2,[
         InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
@@ -496,11 +496,11 @@ async def quality_search(client: Client, query: CallbackQuery):
         
  
     btn.insert(0,[
-        InlineKeyboardButton("🎭 ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
+        InlineKeyboardButton("ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
         ])
     btn.insert(1, [
-        InlineKeyboardButton("✨ season🍿", callback_data=f"seasons#{key}#{offset}#{req}"),
-        InlineKeyboardButton("🚩 ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
+        InlineKeyboardButton("season🍿", callback_data=f"seasons#{key}#{offset}#{req}"),
+        InlineKeyboardButton("ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
     ])
     btn.insert(2, [
         InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
@@ -602,11 +602,11 @@ async def lang_search(client: Client, query: CallbackQuery):
         
 
     btn.insert(0,[
-        InlineKeyboardButton("🎭 ᴄʜᴏᴏsᴇ ǫᴜᴀʟɪᴛʏ ✨", callback_data=f"qualities#{key}#{offset}#{req}"),
+        InlineKeyboardButton("ᴄʜᴏᴏsᴇ ǫᴜᴀʟɪᴛʏ ✨", callback_data=f"qualities#{key}#{offset}#{req}"),
         ])
     btn.insert(1, [
-        InlineKeyboardButton("🚩 ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
-        InlineKeyboardButton("✨ season🍿", callback_data=f"seasons#{key}#{offset}#{req}")
+        InlineKeyboardButton("ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
+        InlineKeyboardButton("season🍿", callback_data=f"seasons#{key}#{offset}#{req}")
     ])
     btn.insert(2, [
         InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
@@ -643,7 +643,7 @@ async def advantage_spoll_choker(bot, query):
         return await query.answer(script.ALRT_TXT, show_alert=True)
     movie = await get_poster(id, id=True)
     search = movie.get('title')
-    await query.answer('ᴄʜᴇᴄᴋɪɴɢ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ 🌚')
+    await query.answer('ᴄʜᴇᴄᴋɪɴɢ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ')
     files, offset, total_results = await get_search_results(search)
     if files:
         k = (search, files, offset, total_results)
@@ -666,7 +666,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             user = query.from_user.id
         if int(user) != 0 and query.from_user.id != int(user):
             return await query.answer(script.ALRT_TXT, show_alert=True)
-        await query.answer("ᴛʜᴀɴᴋs ꜰᴏʀ ᴄʟᴏsᴇ 🙈")
+        await query.answer("ᴛʜᴀɴᴋs ꜰᴏʀ ᴄʟᴏsᴇ")
         await query.message.delete()
         try:
             await query.message.reply_to_message.delete()
@@ -676,7 +676,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         clicker = int(query.data.split("#")[1])
         if clicker not in [query.from_user.id, 0]:
             return await query.answer(
-            f"Hey {query.from_user.first_name}, Jaldi Yeha Se Hato", show_alert=True
+            f"Hey {query.from_user.first_name}, Kᴇᴇᴘ Exᴘʟᴏʀɪɴɢ Mʏ Fᴇᴀᴛᴜʀᴇs Bᴜᴅᴅʏ ❤", show_alert=True
             )
         return await query.message.edit(script.REF_LINK.format(temp.U_NAME , clicker , PREMIUM_POINT) , reply_markup=InlineKeyboardMarkup([
 	    [InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]
@@ -685,7 +685,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         clicker = int(query.data.split("#")[1])
         if clicker not in [query.from_user.id, 0]:
             return await query.answer(
-            f"Hey {query.from_user.first_name}, Jaldi Yeha Se Hato", show_alert=True
+            f"Hey {query.from_user.first_name}, Kᴇᴇᴘ Exᴘʟᴏʀɪɴɢ Mʏ Fᴇᴀᴛᴜʀᴇs Bᴜᴅᴅʏ ❤", show_alert=True
             )
         newPoint = await db.get_point(clicker)
         
@@ -787,11 +787,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎁 ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ 🎁', callback_data=f'free_premium#{query.from_user.id}')
         ],
         [
-            InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{query.from_user.id}'),
-            InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data=f'about')
+            InlineKeyboardButton('ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{query.from_user.id}'),
+            InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ', callback_data=f'about')
         ],
         [
-            InlineKeyboardButton('🤞🏻 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🤡', callback_data='earn')
+            InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ', callback_data='earn')
         ]]    
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -819,7 +819,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "admincmd":
         #if user isnt admin then return
         if not query.from_user.id in ADMINS:
-            return await query.answer('This Feature Is Only For Admins !' , show_alert=True)
+            return await query.answer('You are not Authorised User' , show_alert=True)
         buttons = [
             [InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')],
         ]
@@ -1027,13 +1027,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         chnl_id = query.message.chat.id
         userid = query.from_user.id
         buttons = [[
-            InlineKeyboardButton("😊 ᴀʟʀᴇᴀᴅʏ ᴀᴠᴀɪʟᴀʙʟᴇ 😊", callback_data=f"already_available#{user_id}#{msg_id}")
+            InlineKeyboardButton("ᴀʟʀᴇᴀᴅʏ ᴀᴠᴀɪʟᴀʙʟᴇ", callback_data=f"already_available#{user_id}#{msg_id}")
         ],[
             InlineKeyboardButton("‼️ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ‼️", callback_data=f"not_available#{user_id}#{msg_id}")
         ],[
-            InlineKeyboardButton("🥵 ᴛᴇʟʟ ᴍᴇ ʏᴇᴀʀ/ʟᴀɴɢᴜᴀɢᴇ 🥵", callback_data=f"year#{user_id}#{msg_id}")
+            InlineKeyboardButton("ᴛᴇʟʟ ᴍᴇ ʏᴇᴀʀ/ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"year#{user_id}#{msg_id}")
         ],[
-            InlineKeyboardButton("🙃 ᴜᴘʟᴏᴀᴅᴇᴅ ɪɴ 1 ʜᴏᴜʀ 🙃", callback_data=f"upload_in#{user_id}#{msg_id}")
+            InlineKeyboardButton("ᴜᴘʟᴏᴀᴅᴇᴅ ɪɴ 1 ʜᴏᴜʀ", callback_data=f"upload_in#{user_id}#{msg_id}")
         ],[
             InlineKeyboardButton("☇ ᴜᴘʟᴏᴀᴅᴇᴅ ☇", callback_data=f"uploaded#{user_id}#{msg_id}")
         ]]
@@ -1075,7 +1075,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         chnl_id = query.message.chat.id
         userid = query.from_user.id
         buttons = [[
-            InlineKeyboardButton("🙂 ᴜᴘʟᴏᴀᴅᴇᴅ 🙂", callback_data=f"ul_alert#{user_id}")
+            InlineKeyboardButton("ᴜᴘʟᴏᴀᴅᴇᴅ", callback_data=f"ul_alert#{user_id}")
         ]]
         btn = [[
             InlineKeyboardButton("♻️ ᴠɪᴇᴡ sᴛᴀᴛᴜs ♻️", url=f"{query.message.link}")
@@ -1123,7 +1123,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         chnl_id = query.message.chat.id
         userid = query.from_user.id
         buttons = [[
-            InlineKeyboardButton("😌 ᴜᴘʟᴏᴀᴅ ɪɴ 1 ʜᴏᴜʀꜱ 😌", callback_data=f"upload_alert#{user_id}")
+            InlineKeyboardButton("ᴜᴘʟᴏᴀᴅ ɪɴ 1 ʜᴏᴜʀꜱ", callback_data=f"upload_alert#{user_id}")
         ]]
         btn = [[
             InlineKeyboardButton("♻️ ᴠɪᴇᴡ sᴛᴀᴛᴜs ♻️", url=f"{query.message.link}")
@@ -1147,7 +1147,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         chnl_id = query.message.chat.id
         userid = query.from_user.id
         buttons = [[
-            InlineKeyboardButton("⚠️ ᴛᴇʟʟ ᴍᴇ ʏᴇᴀʀꜱ & ʟᴀɴɢᴜᴀɢᴇ ⚠️", callback_data=f"yrs_alert#{user_id}")
+            InlineKeyboardButton("ᴛᴇʟʟ ᴍᴇ ʏᴇᴀʀꜱ & ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"yrs_alert#{user_id}")
         ]]
         btn = [[
             InlineKeyboardButton("♻️ ᴠɪᴇᴡ sᴛᴀᴛᴜs ♻️", url=f"{query.message.link}")
@@ -1202,7 +1202,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, user_id = query.data.split("#")
         userid = query.from_user.id
         if str(userid) in user_id:
-            await query.answer("ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ᴡɪʟʟ ʙᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ᴡɪᴛʜɪɴ 1 ʜᴏᴜʀ 😁", show_alert=True)
+            await query.answer("ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ᴡɪʟʟ ʙᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ᴡɪᴛʜɪɴ 1 ʜᴏᴜʀ ", show_alert=True)
         else:
             await query.answer(script.ALRT_TXT, show_alert=True)
 
@@ -1210,7 +1210,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, user_id = query.data.split("#")
         userid = query.from_user.id
         if str(userid) in user_id:
-            await query.answer("ʙʀᴏ ᴘʟᴇᴀꜱᴇ ᴛᴇʟʟ ᴍᴇ ʏᴇᴀʀꜱ ᴀɴᴅ ʟᴀɴɢᴜᴀɢᴇ, ᴛʜᴇɴ ɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ 😬", show_alert=True)
+            await query.answer("ʙʀᴏ ᴘʟᴇᴀꜱᴇ ᴛᴇʟʟ ᴍᴇ ʏᴇᴀʀꜱ ᴀɴᴅ ʟᴀɴɢᴜᴀɢᴇ, ᴛʜᴇɴ ɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ", show_alert=True)
         else:
             await query.answer(script.ALRT_TXT, show_alert=True)
 
@@ -1325,14 +1325,14 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     if offset != "":
         if total_results >= MAX_BTN:
             btn.insert(0,[
-                InlineKeyboardButton("🎭 ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
+                InlineKeyboardButton("ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
                 ])
             btn.insert(1, [
-                InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ 🤡", callback_data=f"qualities#{key}#{offset}#{req}"),
-                InlineKeyboardButton("🚩 ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
+                InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
+                InlineKeyboardButton("ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
             ])
             btn.insert(2, [
-                InlineKeyboardButton("✨ ᴄʜᴏᴏsᴇ season🍿", callback_data=f"seasons#{key}#{offset}#{req}")
+                InlineKeyboardButton("ᴄʜᴏᴏsᴇ season🍿", callback_data=f"seasons#{key}#{offset}#{req}")
             ])
             btn.insert(3,[
                 InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
@@ -1490,7 +1490,7 @@ async def advantage_spell_chok(message):
     if not movies:
         google = search.replace(" ", "+")
         button = [[
-            InlineKeyboardButton("🔍 ᴄʜᴇᴄᴋ sᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ 🔍", url=f"https://www.google.com/search?q={google}")
+            InlineKeyboardButton("🔍 ᴄʜᴇᴄᴋ sᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={google}")
         ]]
         k = await message.reply_text(text=script.I_CUDNT.format(search), reply_markup=InlineKeyboardMarkup(button))
         await asyncio.sleep(120)
