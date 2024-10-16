@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2125687935').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/simpshh")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002093599394'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/IBMMovieReq')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/muviigrpp')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002093599394').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vicky3:2003@cluster0.6yf0tdz.mongodb.net/?retryWrites=true&w=majority")
 
@@ -56,10 +56,10 @@ PREMIUM_POINT = 1500
 auth_channel = environ.get('AUTH_CHANNEL', '-1001793723818')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001878276381'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002175684968')
+request_channel = environ.get('REQUEST_CHANNEL', '-1002335385925')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002093599394'))
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002175684968'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002335385925'))
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 PORT = os.environ.get('PORT', '5000')
